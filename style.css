@@ -48,6 +48,9 @@ body{
     font-weight: 600;
 }
 
+.sidebar-nav ul li a:hover{
+    color: #fff;
+}
 .sidebar-nav ul li a i{
     font-size: 20px;
     margin-right: 10px;
@@ -105,4 +108,47 @@ body{
     border-radius: 20px;
     font-weight: 600;
     margin-bottom: 10px;
+}
+
+.privacy ul li a{
+    text-decoration: none;
+    color: #818080;
+    font-size: 10px;
+    font-weight: 600;
+    margin: 0 5px;
+}
+
+.privacy ul li a:hover{
+    text-decoration: underline;
+    color: #bebcbc;
+}
+
+.privacy ul{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.privacy ul li{
+    padding: 0 5px;
+    padding-bottom: 8px;
+}
+
+.eng-btn{
+    padding: 20px 30px;
+}
+
+.eng-btn button{
+    padding: 10px 30px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: #ffffff;
+    border: 1px solid #818080;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+.eng-btn button:hover{
+    padding: 11px 31px;
+    border: 1px solid #fff;
 }
