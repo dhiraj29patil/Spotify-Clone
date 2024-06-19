@@ -152,3 +152,130 @@ body{
     padding: 11px 31px;
     border: 1px solid #fff;
 }
+
+
+.main-section{
+    margin-left: 320px;
+    background: #181818;
+    height: 100vh;
+    overflow: auto;
+}
+
+.main-section .top-nav{
+    padding: 25px 30px;
+    background: #030303;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-section .top-nav button{
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+
+.main-section .top-nav .prev-btn button i{
+    color: #838181;
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.top-nav .login-btn .sign-up{
+    color: #838181;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.top-nav .login-btn .sign-up:hover{
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.top-nav .login-btn .login{
+    color: #242424;
+    font-size: 16px;
+    font-weight: 600;
+    background: #ffffff;
+    padding: 10px 15px;
+    border-radius: 20px;
+
+}
+
+.top-nav .login-btn .login:hover{
+    color: #080808;
+    font-size: 17px;
+    background: #e3e2e2;
+}
+
+.spotify-playlist{
+    padding: 20px 40px;
+}
+
+.spotify-playlist h2{
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.spotify-playlist .card{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.spotify-playlist .card .item{
+    width: 160px;
+    min-width: 140px;
+    background-color: #2e2e2e;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.spotify-playlist .card .item:hover{
+    background-color: #484747;
+}
+
+.spotify-playlist .card .item img{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.spotify-playlist .item h4{
+    color: #fff;
+}
+
+.spotify-playlist .item p{
+    color: #dbd8d8;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.spotify-playlist .item p:hover{
+    text-decoration: underline;
+}
+
+.spotify-playlist .play-btn{
+    position: relative;
+}
+
+.spotify-playlist .play-btn i{
+    position: absolute;
+    background: #21d746;
+    border-radius: 50%;
+    padding: 12px;
+    right: 10px;
+    top: -40px;
+    opacity: 0;
+    transform: 0.3s ease all;
+}
+
+.spotify-playlist .card .item:hover .play-btn i{
+    opacity: 1;
+    transform: translateY(-20px);
+}
